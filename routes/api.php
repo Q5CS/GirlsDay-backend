@@ -28,7 +28,7 @@ $api->version('v1', [
         $api->post('student/session', 'User\AuthController@login')
             ->name('api.auth.student.login');
         // 平台相关数据
-        $api->get('stat', 'WishController@stat')
+        $api->get('system_info', 'WishController@stat')
             ->name('api.stat');
     });
 
