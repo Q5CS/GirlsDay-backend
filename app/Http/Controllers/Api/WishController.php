@@ -313,8 +313,12 @@ class WishController extends Controller
             throw new HttpException(400, '只能确认实现进行中的愿望！');
         }
 
-        if ($wish->uid != $user->id && $wish->assigned_uid != $user->id) {
-            throw new HttpException(400, '你不能确认实现与你无瓜愿望！');
+//        if ($wish->uid != $user->id && $wish->assigned_uid != $user->id) {
+//            throw new HttpException(400, '你不能确认实现与你无瓜愿望！');
+//        }
+
+        if ($wish->uid != $user->id) {
+            throw new HttpException(400, '只有愿望发布者可以确认实现！');
         }
 
         $data = [
