@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4699984d-a327-4668-aca2-36d5ae0b85af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_04_005149_create_wishes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_04_005149_create_wishes_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +204,8 @@
       <workItem from="1583151054600" duration="413000" />
       <workItem from="1583160165884" duration="11328000" />
       <workItem from="1583212206615" duration="36765000" />
-      <workItem from="1583508707938" duration="509000" />
+      <workItem from="1583508707938" duration="1144000" />
+      <workItem from="1583571939741" duration="672000" />
     </task>
     <task id="LOCAL-00001" summary="[M] 只允许女生确认实现愿望">
       <created>1583465592953</created>
@@ -212,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583465592953</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[M] 修改平台整体信息查询接口">
+      <created>1583509245160</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583509245160</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,25 +242,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[M] 只允许女生确认实现愿望" />
-    <option name="LAST_COMMIT_MESSAGE" value="[M] 只允许女生确认实现愿望" />
+    <MESSAGE value="[M] 修改平台整体信息查询接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="[M] 修改平台整体信息查询接口" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1583332451907">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1583332451907" />
-    <state x="372" y="5" key="CommitChangelistDialog2" timestamp="1583465591829">
+    <state x="372" y="5" key="CommitChangelistDialog2" timestamp="1583509244055">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="5" key="CommitChangelistDialog2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1583465591829" />
+    <state x="372" y="5" key="CommitChangelistDialog2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1583509244055" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1583165658935">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1583165658935" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1583160164627">
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1583571957360">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1583160164627" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1583571957360" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1583423469636">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
