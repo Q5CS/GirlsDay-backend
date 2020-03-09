@@ -18,7 +18,7 @@ class CreateUsersTable extends Migration
             $table->string('name')->comment('姓名');
             $table->string('sex')->comment('性别');
             $table->string('mobile')->nullable()->comment('手机号');
-            $table->integer('qz5z_uid')->comment('五中 UID');
+            $table->integer('qz5z_uid')->comment('五中 UID')->index();
             $table->string('qz5z_grade')->comment('五中届数');
             $table->string('qz5z_class')->comment('五中班级');
             $table->integer('qz5z_number')->nullable()->comment('五中座号');
